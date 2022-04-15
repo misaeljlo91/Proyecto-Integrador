@@ -1,0 +1,345 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Encabezado */
+header{
+    padding: 0 2rem !important;
+    background-color: #444444;
+}
+img#logotipo{
+    width: 6rem !important;
+}
+h3#title-page{
+    color: #ffffff;
+    margin-top: .7rem !important;
+}
+a.menu-1{
+    color: #ffffff;
+}
+a.menu-1:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+a.menu-2{
+    color: #76a5af;
+}
+a.menu-2:hover{
+    color: #76a5af;
+    text-decoration: underline;
+}
+a.menu-3{
+    color: #008f39;
+}
+a.menu-3:hover{
+    color: #008f39;
+    text-decoration: underline;
+}
+button.navbar-toggler{
+    background-color: #2e7778;
+}
+
+/* Contenido de página */
+div#banner{
+    padding: 12rem 6rem 6rem 43rem !important;
+    background: rgba(0, 0, 0, 0.7) url("../assets/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+h2#title-banner{
+    color: #ffffff;
+}
+p.text-banner{
+    color: #ffffff;
+}
+button.banner{
+    background: none;
+    border-color: #ffffff;
+}
+button.banner:hover{
+    background: none;
+    border-color: #ffffff;
+    text-decoration: underline;
+}
+button.banner-2{
+    border: none;
+    background-color: #66CC00;
+}
+button.banner-2:hover{
+    background-color: #66CC00;
+    text-decoration: underline;
+}
+div#speakers-cards{
+    padding: 1rem;
+    text-align: center;
+}
+p.text-speakers{
+    margin: 0;
+}
+h3#title-speakers{
+    margin: 0 0 1rem 0;
+}
+div.card{
+    width: 18rem !important;
+    height: 34rem !important;
+}
+p.button-js{
+    padding: .2rem;
+    margin: 0;
+    background-color: #f1c232;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+}
+p.button-react{
+    padding: .2rem;
+    margin: 0;
+    background-color: #2e7778;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+}
+p.button-negocios{
+    padding: .2rem;
+    margin: 0;
+    background-color: #5b5b5b;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+}
+p.button-startups{
+    padding: .2rem;
+    margin: 0;
+    background-color: #cc0000;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+}
+div.card-body{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+h5.card-title{
+    font-weight: 900;
+}
+p.card-text{
+    margin: 0;
+    font-size: 14px !important;
+}
+div#information{
+    padding: 0 1rem !important;
+}
+div.text-information{
+    padding: 1rem;
+    background-color: #444444;
+}
+h3#title-information{
+    color: #ffffff;
+}
+p.text-information{
+    color: #ffffff;
+    font-size: 14px !important;
+}
+button.know-more{
+    background: none;
+    border: 1px solid #ffffff;
+}
+button.know-more:hover{
+    background: none;
+    border: 1px solid #ffffff;
+    text-decoration: underline;
+}
+div#formulary-speaker{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+p.text-formulary{
+    margin: 0 !important;
+    font-size: 14px !important;
+}
+h3#title-formulary{
+    margin: 0 0 .5rem 0;
+}
+p#commentaryHelp{
+    margin: 0;
+}
+div.button{
+    background-color: #66CC00;
+    text-align: center;
+    border-radius: 5px;
+}
+input.send{
+    background-color: #66CC00;
+    border: none;
+}
+input.send:hover{
+    background-color: #66CC00;
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* Pie de página */
+footer{
+    background-color: #134f5c;
+    padding: 1rem 10rem !important;
+}
+div.footer{
+    text-align: center;
+}
+a.footer{
+    color: #ffffff;
+    font-size: 14px !important;
+}
+a.footer:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Contenido de página */
+    div#banner{
+        padding: 9rem 4rem 4rem 28rem !important;
+    }
+    div.card{
+        width: 15rem !important;
+        height: 31rem !important;
+    }
+
+    /* Pie de página */
+    footer{
+        padding: 1rem 7rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Contenido de página */
+    div#banner{
+        padding: 7rem 3rem 3rem 21rem !important;
+    }
+    h2#title-banner{
+        font-size: x-large;
+    }
+    p.text-banner{
+        font-size: 12px;
+    }
+    button.banner, button.banner-2{
+        font-size: small;
+    }
+    div.card{
+        width: 11rem !important;
+        height: 27rem !important;
+    }
+    p.button-js, p.button-react, p.button-negocios, p.button-startups{
+        font-size: 10px !important;
+    }
+    h5.card-title{
+        font-size: medium !important;
+    }
+    p.card-text{
+        font-size: 11px !important;
+    }
+    h3#title-information{
+        font-size: 18px;
+    }
+    p.text-information{
+        font-size: 12px !important;
+    }
+    button.know-more{
+        font-size: 14px;
+    }
+
+    /* Pie de página */
+    footer{
+        padding: 1rem 3rem !important;
+    }
+    a.footer{
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* Contenido de página */
+    div#banner{
+        padding: 1rem !important;
+    }
+    div.card{
+        width: 18rem !important;
+        height: 34rem !important;
+    }
+    p.button-js, p.button-react, p.button-negocios, p.button-startups{
+        font-size: 14px !important;
+    }
+    h5.card-title{
+        font-size: x-large !important;
+    }
+    p.card-text{
+        font-size: 14px !important;
+    }
+    p.text-formulary{
+        margin: 0 2rem 0 2rem !important;
+    }
+
+    /* Pie de página */
+    footer{
+        padding: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* Contenido de página */
+    div.card{
+        width: 18rem !important;
+        height: 34rem !important;
+    }
+    p.button-js, p.button-react, p.button-negocios, p.button-startups{
+        font-size: 14px !important;
+    }
+    h5.card-title{
+        font-size: x-large !important;
+    }
+    p.card-text{
+        font-size: 14px !important;
+    }
+    p.text-information{
+        font-size: 10px !important;
+    }
+    p#commentaryHelp{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* Contenido de página */
+    h2#title-banner{
+        font-size: larger;
+    }
+    p.text-banner{
+        font-size: 10px;
+    }
+    button.banner, button.banner-2{
+        font-size: 11px;
+    }
+    div.card{
+        width: 15rem !important;
+        height: 29rem !important;
+    }
+    p.button-js, p.button-react, p.button-negocios, p.button-startups{
+        font-size: 12px !important;
+    }
+    h5.card-title{
+        font-size: large !important;
+    }
+    p.card-text{
+        font-size: 12px !important;
+    }
+}
